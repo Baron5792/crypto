@@ -1,0 +1,47 @@
+when accepting a users deposit:::
+    -- add up to total deposit
+    -- referral bonus for every refer user
+    -- fetch deposit plan and give interest every 24hours(create its own time string inoder not to affect main time)
+    -- insert into interest table
+    -- sum up and insert into total deposit
+    -- interest should be inserted in interest table too
+
+
+Interest for every accepted deposit:::
+    -- done
+
+
+create a table in the earning page:::
+    -- done
+
+
+write on the 24 hours payment on every successful deposit:::
+    -- increment using date_track
+    -- insert into earning table
+    -- track the plan used
+    -- set up a 2weeks maximum for the increment
+    error try again:
+    -- Done
+
+change password page:::
+    -- compare database password 
+    -- users cannot set up passwords without uppercase and lowercase
+    -- passswords length[verify through signup page]
+    -- do not hash password
+    -- users can't change password till after a week
+    -- Done
+     
+working on referral page:::
+    -- fetch every referred user
+    -- fetch interest income
+    -- fetch the number of referred users
+    -- Done
+
+for kyc verification:::
+    --- fetch every kyc updated
+    -- fetch the name, email, and a view button
+    -- Done
+
+message request:::
+    -- 
+
